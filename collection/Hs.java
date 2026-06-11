@@ -32,12 +32,16 @@ public class Hs{
         System.out.println("==============TREESET EXAMPLE===============");
         System.out.println(t);
         NavigableSet <Integer> i=new TreeSet<>();
-        i.add(1);
-        i.add(2);
-        i.add(3);
-        i.add(5);
-        i.add(4);
+        for(Integer d:h){
+            i.add(d);
+        }
         System.out.println("==============NAVIGABLESET EXAMPLE===============");
         System.out.println(i);
+        System.out.println("set is empty:"+i.isEmpty());
+        System.out.println(i.remove(4));
+        System.out.println(i.contains(9));
+        
     }
 }
+
+
